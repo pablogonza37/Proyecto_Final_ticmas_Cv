@@ -85,13 +85,7 @@ nav ul li a {
     
 }
 
-.boton_imprimir {
 
-    text-decoration: none;
-    color: rgb(251, 252, 252);
-    font-weight: bold;
-    font-family: sans-serif;
-}
 
 .container {
     display: -ms-flexbox; 
@@ -330,11 +324,7 @@ p {
 }
 
 
-.boton_imprimir {
-    background: none;
-    border: none;
-    
-}
+
 .fecha_hoy {
 
     color: white;
