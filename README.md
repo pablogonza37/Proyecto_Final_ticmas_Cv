@@ -14,6 +14,10 @@ Contenido del curriculum:
  
  • Opcion de impresion del curriculum.
  
- • redireccionamiento a paginas de interes.
+ • Redireccionamiento a paginas de interes.
+ 
+ • Modo Oscuro
+ 
+ 
  
  
