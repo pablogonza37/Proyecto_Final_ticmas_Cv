@@ -30,7 +30,7 @@ document.getElementById('imprimir').addEventListener('click', function() {
     return true;
   }
 
-// Fecha de hoy
+// Fecha 
 
   var d=new Date();
   var month=new Array(12);
@@ -65,6 +65,65 @@ function getSecs(){var tSecs=Math.round(initStopwatch());
 window.onload = function(){
 window.setTimeout('getSecs()',1);
 }
+
+
+
+// Modo Oscuro
+
+var modo=0;
+
+document.getElementById('inicio').addEventListener('click', function () {
+
+modo=modo+1;
+
+if (modo==1){
+  ModoOscuro();
+}
+else {
+  ModoDefault();
+  modo=0;
+}
+
+  })
+
+  function ModoOscuro(){
+
+  document.getElementById("con_menu").style.backgroundColor = 'black'
+
+  document.getElementById("con_left").style.backgroundColor = 'black'
+
+  document.getElementById("menu").style.backgroundColor = 'black'
+
+  document.getElementById("inicio").innerHTML = "Modo Default";
+
+  }
+
+
+  function ModoDefault(){
+
+    document.getElementById("con_menu").style.backgroundColor = 'rgb(224, 80, 80)'
+
+    document.getElementById("con_left").style.backgroundColor = '#382f2f'
+  
+    document.getElementById("menu").style.backgroundColor = '#333'
+  
+    document.getElementById("inicio").innerHTML = "Modo Oscuro";
+
+
+  }
+
+  
+
+  
+
+
+
+
+
+
+
+
+
 
 
 
