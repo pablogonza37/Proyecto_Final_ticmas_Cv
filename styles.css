@@ -27,6 +27,7 @@ body {
     float: left;
     padding: 5px;
     transition: transform 2s;
+    border-radius: 50%;
 }
 
 .icono:hover { 
