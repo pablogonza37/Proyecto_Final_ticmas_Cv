@@ -1,8 +1,8 @@
 # Proyecto Final ticmas - Curriculum Vitae
 
-El proyecto consiste en la utilizacion de Html para la creacion de un modelo de curriculum, utilizacion de Css para darle diseño e interactividad y la utilizacion de javascript para darle comportamiento al proyecto. 
+El proyecto consiste en la realizacion de un modelo de curriculum utilizando Html, Css y Javascript 
 
-Contenido del curriculum:
+Contenido del proyecto:
 
  • Datos personales ficticios.
  
@@ -12,7 +12,7 @@ Contenido del curriculum:
  
  • Foto de perfil.
  
- • Opcion de impresion del curriculum.
+ • Boton de impresion del curriculum.
  
  • Redireccionamiento a paginas de interes.
  
