@@ -574,7 +574,7 @@ p {
         50%{
             width: 4rem;
             height: 4rem;
-            transition: .2s;
+            
         }
         100%{
             width: 3.5rem;
