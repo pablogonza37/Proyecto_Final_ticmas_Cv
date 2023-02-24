@@ -277,37 +277,21 @@ p {
 }
 
 
-.contac::before {
-    
-    content: url("imagenes/icons8-contacts-20.png");
-    
-}
+.contac::before {content: url("imagenes/icons8-contacts-20.png");}
+.inf::before{content: url("imagenes/icons8-security-pass-20.png");}
+.language::before{content: url("imagenes/icons8-voice-recognition-20.png");}
+.descripcion h2::before{content: url("imagenes/icons8-description-20.png");}
+.habilidades::before{content: url("imagenes/icons8-abilities-20.png");}
+.experiencia h2::before{content: url("imagenes/icons8-business-20.png");}
+.imprimir button::after{content: url("imagenes/icons8-send-to-printer-20.png");}
 
-.inf::before{
-    content: url("imagenes/icons8-security-pass-20.png");
-    
-}
+.icon_html::after{content: url("imagenes/icons8-html-5-20.png");}
+.icon_css::after{content: url("imagenes/icons8-css3-20.png");}
+.icon_c::after{content: url("imagenes/icons8-c++-20.png");} 
+.icon_js::after{content: url("imagenes/icons8-javascript-20.png");} 
+.icon_py::after{content: url("imagenes/icons8-python-20.png");}   
+.icon_ruby::after{content: url("imagenes/icons8-ruby-programming-language-20.png");}                                        
 
-.language::before{
-    content: url("imagenes/icons8-voice-recognition-20.png");
-    }
-
-
-.descripcion h2::before{
-    content: url("imagenes/icons8-description-20.png");
-    }
-
-.habilidades::before{
-    content: url("imagenes/icons8-abilities-20.png");
-    }
-
-.experiencia h2::before{
-    content: url("imagenes/icons8-business-20.png");
-    }
-
-.imprimir button::after{
-    content: url("imagenes/icons8-send-to-printer-20.png");
-    }
 
 
 
