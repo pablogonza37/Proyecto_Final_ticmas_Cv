@@ -602,3 +602,23 @@ p {
         }
        }
 
+@media print {
+    .container_menu, h4, h1{
+        margin: 0;
+    }
+     p{
+        padding: 1px;
+    }
+    .container_left{
+        padding: 5px;
+        margin: 0;
+    }
+    .imagen_perfil img{
+        width: 153px;
+        height: 153px;
+    }
+    body{
+        background: none;
+    }
+}
+
