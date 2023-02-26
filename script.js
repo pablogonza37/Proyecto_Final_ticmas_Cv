@@ -8,8 +8,7 @@ document.getElementById('imprimir').addEventListener('click', function() {
     var div = document.getElementById('pdf');
     
     imprimirElemento(div)}
-
-   
+  
   });
 
   function imprimirElemento(elemento) {
