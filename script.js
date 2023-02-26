@@ -15,7 +15,7 @@ document.getElementById('imprimir').addEventListener('click', function() {
   function imprimirElemento(elemento) {
     var ventana = nv=window.open('', 'PRINT', 'height=800,width=1000');
     
-    
+    ventana.document.write('<div class="inicio"><h1 class="titulo">Curriculum Vitae</h1></div>');
     ventana.document.write('<link rel="stylesheet" href="styles.css">');
     ventana.document.write('<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">');
     ventana.document.write('<html><head><title>' + document.title + '</title>');
