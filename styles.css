@@ -107,12 +107,6 @@ nav ul li a {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(5, 5, 5);
    
-    
-    
-    
-    
-   
-
 }
 
 .titulo {
@@ -150,9 +144,6 @@ nav ul li a {
     
     
 }
-
-
-
 
 
 .imagen_perfil img { 
@@ -293,8 +284,6 @@ p {
 .icon_ruby::after {content: url("imagenes/icons8-ruby-programming-language-20.png");}                                        
 
 
-
-
 .footer {
     
     height: 100px;
@@ -302,8 +291,6 @@ p {
     float: none;
     margin: 20px auto;
     margin-left: 20px;
-   
-  
 }
 
 .titulo_redes {
@@ -325,10 +312,7 @@ p {
     width: 40px;
     height: 40px;
     margin: 10px auto;
-    float: left;
-
-    
-    
+    float: left;    
 
 }
 
@@ -488,12 +472,6 @@ p {
   }
 
 
-
-
-
-
-
-
    /* Pantalla max 1000px*/
 
     @media screen and (max-width: 1000px) {
@@ -621,4 +599,3 @@ p {
         background: none;
     }
 }
-
